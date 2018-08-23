@@ -1,31 +1,18 @@
-Rust Template Project
-=====================
+Yaml users go back to hell! immediately!!!
+==========================================
 
-Rust template project for monorepo
+Use json, json5, toml, or whatever, and say `fuck-github-action`!
 
-## Change the initial commit
+## git auto fuck
+
+To prevent forgetting to fuck, you can use git hook to help you fuck github action.
+
+`.git/hooks/pre-commit`
 
 ```shell
-git commit --amend --message "🎂 Project initialized!" --date "2012-12-12"
+fuck-github-action
 ```
 
-## Emoji Comment
-
-| Emoji  | Meaning                      |  
-|--------|------------------------------|  
-| 🎂     | Project initialized!         |  
-| 🎉     | Release new version          |  
-| 🧪🔮   | Experimental code            |   
-| 🔧🐛🐞 | Bug fix                      |  
-| 🔒     | Security fix                 |  
-| 🐣🐤🐥 | Add feature                  |  
-| 📝🎀   | Documentation                |  
-| 🚀     | Performance improve!         |  
-| 🚧     | Work in progress             |  
-| 🚨     | Test coverage improve!       |  
-| 🚥     | CI improve!                  |  
-| 🔥🧨   | Remove code or files         |
-| 🧹     | Code refactor                |
-| 📈     | Add analytics or branch code |
-| 🤖     | Automation fix               |
-| 📦     | Update dependencies          |
+```shell
+chmod +x pre-commit
+```

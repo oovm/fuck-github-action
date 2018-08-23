@@ -7,3 +7,8 @@
 mod errors;
 
 pub use crate::errors::{Error, Result};
+
+
+fn main() {
+    println!("fuck-github-action!")
+}
