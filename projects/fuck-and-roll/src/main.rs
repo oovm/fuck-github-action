@@ -4,11 +4,11 @@
 #![doc(html_logo_url = "https://raw.githubusercontent.com/oovm/shape-rs/dev/projects/images/Trapezohedron.svg")]
 #![doc(html_favicon_url = "https://raw.githubusercontent.com/oovm/shape-rs/dev/projects/images/Trapezohedron.svg")]
 
-mod errors;
+use crate::walker::ActionWalker;
 
-pub use crate::errors::{Error, Result};
+mod walker;
 
-
-fn main() {
-    println!("fuck-github-action!")
+pub fn main() {
+    println!("Start fuck github action!");
+    ActionWalker::default().walk();
 }

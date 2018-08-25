@@ -3,14 +3,20 @@ name = "fuck-github-action"
 version = "0.0.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "Let's fuck and roll"
-repository = "https://github.com/oovm/sub_projects"
-documentation = "https://docs.rs/sub_projects"
+repository = "https://github.com/oovm/fuck-github-action"
+documentation = "https://docs.rs/fuck-github-action"
 readme = "readme.md"
 license = "MPL-2.0"
 edition = "2021"
 exclude = ["package.json", "tests/**"]
 
 [dependencies]
+anyhow = "1.0.75"
+wax = "0.6.0"
+serde_yaml = "0.9.25"
+toml = "0.8.2"
+json5 = "0.4.1"
+
 
 [dev-dependencies]
 

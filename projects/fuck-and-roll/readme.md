@@ -1,31 +1,26 @@
-Title
-=====
+YAML users GO BACK TO HELL! IMMEDIATELY!!!
+==========================================
 
-Rust template project for monorepo
+Use json, json5, toml, or whatever, and say `fuck-github-action`!
 
-## Change the initial commit
+## Want to fuck?
 
 ```shell
-git commit --amend --message "🎂 Project initialized!" --date "2018-8-21"
+cargo install fuck-github-action --force
 ```
 
-## Emoji Comment
+## Git auto fuck!
 
-| Emoji  | Meaning                      |  
-|--------|------------------------------|  
-| 🎂     | Project initialized!         |  
-| 🎉     | Release new version          |  
-| 🧪🔮   | Experimental code            |   
-| 🔧🐛🐞 | Bug fix                      |  
-| 🔒     | Security fix                 |  
-| 🐣🐤🐥 | Add feature                  |  
-| 📝🎀   | Documentation                |  
-| 🚀     | Performance improve!         |  
-| 🚧     | Work in progress             |  
-| 🚨     | Test coverage improve!       |  
-| 🚥     | CI improve!                  |  
-| 🔥🧨   | Remove code or files         |
-| 🧹     | Code refactor                |
-| 📈     | Add analytics or branch code |
-| 🤖     | Automation fix               |
-| 📦     | Update dependencies          |
+To prevent forgetting to fuck, you can use git hook to help you fuck github action.
+
+you can create a `.git/hooks/pre-commit`, then edit manually or use the command line:
+
+```shell
+echo '#!/bin/sh' > .git/hooks/pre-commit
+echo 'fuck-github-action' >> .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
+## License
+
+Do What the Fuck You Want to Public License

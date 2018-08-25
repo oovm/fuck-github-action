@@ -1,9 +1,15 @@
-Yaml users go back to hell! immediately!!!
+YAML users GO BACK TO HELL! IMMEDIATELY!!!
 ==========================================
 
 Use json, json5, toml, or whatever, and say `fuck-github-action`!
 
-## Git auto fuck
+## Want to fuck?
+
+```shell
+cargo install fuck-github-action --force
+```
+
+## Git auto fuck!
 
 To prevent forgetting to fuck, you can use git hook to help you fuck github action.
 
