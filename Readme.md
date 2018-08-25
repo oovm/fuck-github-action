@@ -3,16 +3,18 @@ Yaml users go back to hell! immediately!!!
 
 Use json, json5, toml, or whatever, and say `fuck-github-action`!
 
-## git auto fuck
+## Git auto fuck
 
 To prevent forgetting to fuck, you can use git hook to help you fuck github action.
 
-`.git/hooks/pre-commit`
+you can create a `.git/hooks/pre-commit`, then edit manually or use the command line:
 
 ```shell
-fuck-github-action
+echo '#!/bin/sh' > .git/hooks/pre-commit
+echo 'fuck-github-action' >> .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
 ```
 
-```shell
-chmod +x pre-commit
-```
+## License
+
+Do What the Fuck You Want to Public License
