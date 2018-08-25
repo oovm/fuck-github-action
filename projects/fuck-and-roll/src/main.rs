@@ -8,6 +8,7 @@ use crate::walker::ActionWalker;
 
 mod walker;
 
+/// Let's fuck and roll!
 pub fn main() {
     println!("Start fuck github action!");
     ActionWalker::default().walk();

@@ -14,7 +14,7 @@ impl ActionWalker {
         }
     }
     fn try_walk(&self) -> Result<()> {
-        let glob = Glob::new("*.{json,json5,toml}")?;
+        let glob = Glob::new("**/*.{json,json5,toml}")?;
         for entry in glob.walk(".github/") {
             self.convert(entry?.path())?
         }
